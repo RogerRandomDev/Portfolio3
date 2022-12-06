@@ -20,7 +20,7 @@ function Skills(){
 return <>
     
     <h1 class="text-4xl font-bold text-white w-fit mx-auto" id="Skills">SKILLS</h1>
-    <div class="mx-auto flex flex-row flex-wrap sm:w-[100vw] md:w-[87.5vw] w-fit sm:w-[75vw] gap-0 md:gap-2">
+    <div class="mx-auto flex flex-row flex-wrap sm:w-[100vw] md:w-[87.5vw] w-fit sm:w-[75vw] gap-1 md:gap-2 text-2xl">
         {mySkills.map((skill)=>{
             return (
             <div className="mx-auto bg-black text-center md:w-[20rem] min-h-[1.5rem]" style={windowSize<768?{'min-height':`11.5rem`}:{'min-width':`20rem`}}>
