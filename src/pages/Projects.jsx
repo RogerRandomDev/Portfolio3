@@ -23,7 +23,7 @@ function Projects(){
                     return <a href={project[2]} className="border-solid rounded-xl w-fit max-w-[10rem] sm:max-w-full sm:w-0 sm:min-w-[16.666vw] bg-gray-400 border-gray-600 flex flex-col" style={{"aspect-ratio":"3/4"}}>
                         <h1 className="text-center flex-none bg-gray-700 rounded-t-lg text-gray-200 border-b-gray-800 border-b-2 h-11 justify-center justify-self-start">{project[0]}</h1>
                         <div className="justify-self-center flex-grow flex">
-                            <img src={project[3]} className="mx-auto object-contain" style={{"aspect ratio":"1/1"}}/>
+                            <img src={project[3]} className="mx-auto  object-cover h-[5rem] min-h-full max-w-full" style={{"aspect-ratio":"1 / 1"}}/>
                         </div>
                         
                         <p className="text-center justify-self-end bg-gray-700 border-solid border-t-gray-800 border-t-2 rounded-b-lg text-gray-300">Made With: {project[1]}</p>
