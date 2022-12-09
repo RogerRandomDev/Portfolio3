@@ -20,6 +20,9 @@ function Skills(){
     },[windowSize])
 return <>
     <h1 class="text-4xl font-bold text-white w-fit mx-auto" id="Skills">SKILLS</h1>
+    <p className="mx-auto w-fit sm:max-w-[75vw] text-xl text-center text-gray-300">
+            Skills I have gained through my time programming and a personal scale of experience and understanding of each
+    </p>
     <div class="mx-auto flex flex-row flex-wrap sm:w-fit md:w-[87.5vw] w-fit sm:w-[75vw] gap-1 md:gap-2 text-2xl">
         {mySkills.map((skill)=>{
             return (
