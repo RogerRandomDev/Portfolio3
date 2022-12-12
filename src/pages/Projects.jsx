@@ -4,7 +4,7 @@
 //javascript logo https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png
 const projectList=[
     ["Arcade Mega-Mash","Godot","https://rogerrandom.itch.io/arcade-mega-mash","https://bevyengine.org/assets/itchio-textless.svg"],
-    ["Arcade Mega-Mash REPO","Godot","","https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"],
+    ["Arcade Mega-Mash REPO","Godot","https://github.com/RogerRandomDev/MegaMash","https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"],
     ["JS Engine","JavaScript","https://rogerrandomdev.github.io/jsengine1/","https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"],
     ["HTML ENGINE 2","HTML","https://rogerrandomdev.github.io/html_engine_2/","https://cdn-icons-png.flaticon.com/512/1216/1216733.png"],
     ["HTML ENGINE","HTML","https://rogerrandomdev.github.io/html_engine/","https://cdn-icons-png.flaticon.com/512/1216/1216733.png"],
@@ -27,7 +27,7 @@ function Projects(){
                     return <a href={project[2]} className="max-w-[45vw] flex-grow h-full w-full shadow-xl hover:-translate-y-1 hover:sm:translate-y-1 border-solid rounded-xl w-fit max-w-[10rem] sm:max-w-full sm:w-0 sm:min-w-[16.666vw] bg-gray-400 border-gray-600 flex flex-col" style={{"aspect-ratio":"3/4"}}>
                         <h1 className=" text-md md:text-[1rem] lg:text-lg text-center flex-none bg-gray-700 rounded-t-lg text-gray-200 border-b-gray-800 border-b-2 h-11 justify-center justify-self-start">{project[0]}</h1>
                         <div className="justify-self-center flex-grow flex overflow-hidden m-auto">
-                            <img src={project[3]} className="mx-auto object-cover h-[5rem] max-w-[40vw] min-h-full max-w-full" style={{"aspect-ratio":"1 / 1"}}/>
+                            <img src={project[3]} className="mx-auto object-cover h-[5rem] max-w-[40vw] h-fit max-w-full" style={{"aspect-ratio":"1 / 1"}}/>
                         </div>
                         
                         <p className="text-center justify-self-end bg-gray-700 border-solid border-t-gray-800 border-t-2 rounded-b-lg text-gray-300">Made With: {project[1]}</p>
