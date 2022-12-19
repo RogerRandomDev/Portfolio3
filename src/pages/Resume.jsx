@@ -1,5 +1,5 @@
 function Resume(){
-    return <div id="Resume">
+    return <div id="Resume" className="mb-5">
         <h1 class="mx-auto w-fit text-5xl font-bold text-gray-300">Resume</h1>
         <div class="text-gray-300 w-[100%] sm:w-[66%] mx-auto">
             <div>
