@@ -3,7 +3,7 @@ import backdrop from '../images/backdrop.jpg';
 const links = [
     ['About',
     'Skills'],
-    ['Projects']
+    ['Projects',"Resume"]
 ]
 
 function Landing(){
